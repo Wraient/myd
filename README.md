@@ -1,7 +1,7 @@
 # MYD
 Manage your dotfiles
 
-this program help you upload and keep your github dotfiles upto date and help install them in your system
+this program helps you upload and keep your github dotfiles upto date and help install them in your system
 
 # Workflow
 ```
@@ -100,32 +100,12 @@ yay -R myd
 ```
 </details>
 
-# Usage
-```
-myd add {PATH TO DIRECTORY OR FILE}
-```
-This will track the file and upload it to github
+# Usage 
 
-
-```
-myd ignore {PATH TO DIRECTORY OR FILE}
-```
-This will ignore the files and wont upload it to github
-
-
-```
-myd delete
-```
-This will start a interactive select menu to delete added paths
-
-
-```
-myd upload
-```
-This will upload all the paths to your github
-
-
-```
-myd install {Github link}
-```
-This will install the dots at their original places (if it was uplaoded using myd.
+| Command                           | Description                                                                                               |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `myd add {PATH TO DIRECTORY OR FILE}`      | Tracks the specified file or directory and uploads it to GitHub.                                         |
+| `myd ignore {PATH TO DIRECTORY OR FILE}`   | Ignores the specified file or directory, preventing it from being uploaded to GitHub.                   |
+| `myd delete`                      | Opens an interactive select menu to delete added paths.                                                   |
+| `myd upload`                      | Uploads all tracked paths to your GitHub repository.                                                      |
+| `myd install {Github link}`       | Installs the dotfiles at their original locations (if uploaded using `myd`).                              | 

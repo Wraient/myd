@@ -3,6 +3,10 @@ Manage your dotfiles
 
 this program helps you upload and keep your github dotfiles upto date and help install them in your system
 
+## Demo
+
+https://github.com/user-attachments/assets/37c5ff81-5b84-44a2-8391-723b1bf9a48a
+
 # Workflow
 ```
 myd init
